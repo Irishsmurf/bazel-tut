@@ -5,5 +5,6 @@ public class EchoHello {
     // Initialize
     EchoClass echo = new EchoClass();
     System.out.println(echo.returnString("Hey!!"));
+    System.out.println(echo.returnHex("8"));
   }
 }
